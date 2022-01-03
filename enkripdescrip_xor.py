@@ -25,7 +25,7 @@ with open(Fin, 'rb') as Fin:
             c = bytes([p ^ KunciSha[j]])
             Fout.write(c)
             i = i + 1
-print("Enkripsi  Berhasil!")
+print("Enkripsi  Berhasil!\n")
 
 
 # Deskripsi sembarang berkas dengan algoritma XOR sederhana
@@ -49,4 +49,4 @@ print("Enkripsi  Berhasil!")
 #             p = bytes([c ^ KunciSha[j]])
 #             Fout.write(p)
 #             i = i + 1
-# print("Deskripsi Berhasil")
+# print("Deskripsi Berhasil\n")
